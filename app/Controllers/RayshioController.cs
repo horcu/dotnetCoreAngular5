@@ -21,5 +21,11 @@ namespace Angular.NET_Core_RESTfulAPI1.Controllers
         {
             return msg;
         }
+
+         [HttpPost]
+        public string Delete(string id)
+        {
+            return id;
+        }
     }
 }
