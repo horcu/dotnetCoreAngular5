@@ -27,5 +27,11 @@ namespace Angular.NET_Core_RESTfulAPI1.Controllers
         {
             return id;
         }
+
+        [HttpPut]
+        public string Put(string id, Object data)
+        {
+            return id;
+        }
     }
 }
